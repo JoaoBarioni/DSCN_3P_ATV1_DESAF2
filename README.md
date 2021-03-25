@@ -1,2 +1,1 @@
-# Design-de-Softwares-e-Computa-o-em-Nuvem
-Repositorio feito para salvar codigos feitos com inteção de  para  conclusão de desafios e trabalhos pela materia  de Design de Softwares e Computação em Nuvem.
+Repositorio criado para organização e salvamento de codigos de atividades e desafios pela materia de Design de Softwares e Computação em Nuvem.
