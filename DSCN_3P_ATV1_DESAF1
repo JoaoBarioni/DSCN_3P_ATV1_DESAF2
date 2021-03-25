@@ -1,0 +1,39 @@
+int vermelho = 1;
+int amarelo = 2;
+int verde = 3;
+int vermelhop = 4;
+int verdep = 5;
+int botao = 7;
+
+void setup()
+{
+  pinMode(1, OUTPUT);
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(7, INPUT_PULLUP);
+
+}
+
+void loop()
+{
+  if (digitalRead(7) == LOW) {
+    delay(5000);
+    digitalWrite(amarelo, HIGH);
+    digitalWrite(verde, LOW);
+    delay(2000);
+    digitalWrite(amarelo, LOW);
+    digitalWrite(vermelho, HIGH);
+    digitalWrite(verde, LOW);
+    digitalWrite(verdep, HIGH);
+    digitalWrite(vermelhop, LOW);
+    delay(4000);
+  }
+  else {
+    digitalWrite(verde, HIGH);
+    digitalWrite(vermelho, LOW);
+    digitalWrite(verdep, LOW);
+    digitalWrite(vermelhop, HIGH);
+  }
+}
